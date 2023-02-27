@@ -1,0 +1,371 @@
+CRITICAL - 2022-11-22 10:45:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/Client.php(14): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 12:12:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 12:14:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 12:15:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 12:17:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 12:17:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 12:58:52 --> Class "App\Controllers\Admin\UserModel" not found
+in APPPATH/Controllers/Admin/User.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 16:14:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 845.
+ 1 SYSTEMPATH/Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 16:14:26 --> Class "App\Controllers\Admin\UserModel" not found
+in APPPATH/Controllers/Admin/User.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 16:15:18 --> Class "App\Controllers\Admin\UserModel" not found
+in APPPATH/Controllers/Admin/User.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 16:23:22 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '1q2w3e4r5t', 'pw_exemple', 3306, '', 0)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/html/codeigniter4/app/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Client->listClients()
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/html/codeigniter4/app/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+#6 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Client->listClients()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-22 16:23:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clients`', [], false)
+ 3 SYSTEMPATH/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 16:25:08 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '1q2w3e4r5t', 'pw_exemple', 3306, '', 0)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/html/codeigniter4/app/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Client->listClients()
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/html/codeigniter4/app/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+#6 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Client->listClients()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-22 16:25:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clients`', [], false)
+ 3 SYSTEMPATH/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Client.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 16:33:13 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '1q2w3e4r5t', 'pw_exemple', 3306, '', 0)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/html/codeigniter4/app/Controllers/Client.php(14): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Client->listClients()
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/html/codeigniter4/app/Controllers/Client.php(14): CodeIgniter\BaseModel->findAll()
+#6 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Client->listClients()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-22 16:33:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clients`', [], false)
+ 3 SYSTEMPATH/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Client.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 16:33:25 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '1q2w3e4r5t', 'pw_exemple', 3306, '', 0)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/codeigniter4/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/codeigniter4/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/codeigniter4/app/Models/UserModel.php(12): CodeIgniter\BaseModel->first()
+#7 /var/www/html/codeigniter4/app/Controllers/Admin/User.php(16): App\Models\UserModel->getUser(NULL)
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#10 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/codeigniter4/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/codeigniter4/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /var/www/html/codeigniter4/app/Models/UserModel.php(12): CodeIgniter\BaseModel->first()
+#6 /var/www/html/codeigniter4/app/Controllers/Admin/User.php(16): App\Models\UserModel->getUser(NULL)
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-22 16:33:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(12): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/Admin/User.php(16): App\Models\UserModel->getUser(null)
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 16:37:06 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '1q2w3e4r5t', 'pw_exemple', 3306, '', 0)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/codeigniter4/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/codeigniter4/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 /var/www/html/codeigniter4/app/Models/UserModel.php(12): CodeIgniter\BaseModel->first()
+#7 /var/www/html/codeigniter4/app/Controllers/Admin/User.php(16): App\Models\UserModel->getUser(NULL)
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#10 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/codeigniter4/system/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/codeigniter4/system/BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 /var/www/html/codeigniter4/app/Models/UserModel.php(12): CodeIgniter\BaseModel->first()
+#6 /var/www/html/codeigniter4/app/Controllers/Admin/User.php(16): App\Models\UserModel->getUser(NULL)
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-22 16:37:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH/Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/UserModel.php(12): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/Admin/User.php(16): App\Models\UserModel->getUser(null)
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\User->validateLogin()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-22 16:57:46 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php(171): mysqli->real_connect('localhost', 'root', '1q2w3e4r5t', 'pw_exemple', 3306, '', 0)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 /var/www/html/codeigniter4/app/Controllers/Client.php(14): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Client->listClients()
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/codeigniter4/system/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/codeigniter4/system/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 /var/www/html/codeigniter4/app/Controllers/Client.php(14): CodeIgniter\BaseModel->findAll()
+#6 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Client->listClients()
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-22 16:57:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clients`', [], false)
+ 3 SYSTEMPATH/Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Client.php(14): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClients()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 17:05:01 --> Invalid file: admin/client/listClients.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/client/listClients.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/client/listClients', [], true)
+ 3 APPPATH/Controllers/Admin/Client.php(20): view('admin/client/listClients', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:17:07 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH/Controllers/Admin/Client.php on line 39.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Admin/Client.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Client')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Client')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\Client', true)
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:22:21 --> Invalid file: admin/client/insertClient.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/client/insertClient.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/client/insertClient', [], true)
+ 3 APPPATH/Controllers/Admin/Client.php(22): view('admin/client/insertClient')
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClient()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

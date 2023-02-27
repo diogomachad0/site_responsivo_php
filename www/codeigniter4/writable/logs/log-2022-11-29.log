@@ -1,0 +1,35 @@
+ERROR - 2022-11-29 16:26:23 --> mysqli_sql_exception: Unknown column 'clients.id' in 'where clause' in /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /var/www/html/codeigniter4/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /var/www/html/codeigniter4/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/codeigniter4/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/codeigniter4/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/codeigniter4/system/Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/codeigniter4/system/BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+#6 /var/www/html/codeigniter4/app/Controllers/Admin/Client.php(46): CodeIgniter\BaseModel->find('1')
+#7 /var/www/html/codeigniter4/system/CodeIgniter.php(927): App\Controllers\Admin\Client->updateClient('1')
+#8 /var/www/html/codeigniter4/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+#9 /var/www/html/codeigniter4/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/codeigniter4/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-29 16:26:23 --> Unknown column 'clients.id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `clients`
+WHERE `clients`.`id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `clients`
+WHERE `clients`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `clients`
+WHERE `clients`.`id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clients`
+WHERE `clients`.`id` = :clients.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(524): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/Admin/Client.php(46): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->updateClient('1')
+ 9 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+10 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
